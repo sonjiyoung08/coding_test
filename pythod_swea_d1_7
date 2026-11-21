@@ -1,0 +1,5 @@
+a = ['+','+','+','+','+']
+for i in range(len(a)):
+    a[i] = '#'
+    print(*a)
+    a[i] = '+'
