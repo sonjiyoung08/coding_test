@@ -1,0 +1,6 @@
+a, b = map(int, input().split())
+plus = a + b
+sub = a - b
+mul = a * b
+div = a // b
+print(plus, sub, mul, div, sep="\n")
