@@ -1,3 +1,5 @@
+# 간단한 약수 구하기
+
 N = int(input())
 
 for i in range(N, 0, -1):
