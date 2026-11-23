@@ -1,0 +1,23 @@
+# [파이썬 프로그래밍 기초(1) 파이썬의 기본 구조와 기초 문법] 4. 변수
+
+N = int(input())
+
+one = N
+two = []
+three = []
+four = []
+
+for i in range(2):
+    two.append(N)
+
+for j in range(3):
+    three.append(N)
+
+for k in range(4):
+    four.append(N)
+
+two = int(''.join(map(str, two)))
+three = int(''.join(map(str, three)))
+four = int(''.join(map(str, four)))
+
+print(one + two + three + four)
