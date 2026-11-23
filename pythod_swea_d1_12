@@ -1,7 +1,6 @@
 # 알파벳을 숫자로 변환
 
 N = input()
-
 a = 0
 for i in N:
     i = i.upper()
