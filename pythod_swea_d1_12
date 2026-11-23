@@ -2,7 +2,6 @@
 
 N = input()
 a = 0
-
 for i in N:
     i = i.upper()
     a = ord(i)-64
