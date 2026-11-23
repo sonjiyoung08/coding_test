@@ -1,8 +1,10 @@
 # 중앙값 찾기
 
 N = int(input())
+
 num = list(map(int, input().split()))
 
 m = N // 2
 num.sort()
+
 print(num[m])

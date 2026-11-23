@@ -5,4 +5,5 @@ N = list(map(int, input()))
 count = 0
 for i in range(4):
     count += N[i]
+    
 print(count)

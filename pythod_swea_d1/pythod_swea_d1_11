@@ -1,5 +1,7 @@
 # 신문 헤드라인
 
 N = input()
+
 N = N.upper()
+
 print(N)
