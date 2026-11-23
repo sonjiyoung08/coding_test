@@ -1,0 +1,23 @@
+T = int(input())
+
+for tc in range(1, T + 1):
+    N = input()
+    Year = []
+    Month = []
+    Day = []
+    for i in range(4):
+        Year.append(N[i])
+    for j in range(4, 6):
+        Month.append(N[j])
+    for k in range(6, 8):
+        Day.append(N[k])
+year = int(''.join(Year))
+month = int(''.join(Month))
+day = int(''.join(Day))
+if year >= 1000 and month > 0 and day > 0 and month <= 12 and day <= 31:
+    print(f'#{tc} {year}/{month}/{day}')
+elif year == 0000 and month == 00 and day == 00:
+    print(f'#{tc} -1')
+else:
+    print(f'#{tc} -1')
+    
