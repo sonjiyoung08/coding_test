@@ -1,0 +1,16 @@
+# [파이썬 프로그래밍 기초(2) 파이썬의 기본 응용] 5. 객체지향 1
+class Student:
+
+    def __init__(self, korean, english, math):
+        self.korean = korean
+        self.english = english
+        self.math = math
+
+    def total_score(self):
+        return self.korean + self.english + self.math
+
+korean, english, math = map(int, input().split())
+
+student = Student(korean, english, math)
+
+print(f'국어, 영어, 수학의 총점: {student.total_score()}')
