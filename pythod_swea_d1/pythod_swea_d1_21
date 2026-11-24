@@ -1,4 +1,5 @@
 # [파이썬 프로그래밍 기초(2) 파이썬의 기본 응용] 5. 객체지향 1
+
 class Student:
 
     def __init__(self, korean, english, math):
@@ -9,7 +10,7 @@ class Student:
     def total_score(self):
         return self.korean + self.english + self.math
 
-korean, english, math = map(int, input().split())
+korean, english, math = map(int, input().split(','))
 
 student = Student(korean, english, math)
 
