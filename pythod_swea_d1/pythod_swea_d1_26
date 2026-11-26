@@ -1,0 +1,10 @@
+# [파이썬 프로그래밍 기초(1) 파이썬의 기본 구조와 기초 문법] 5. 연산자 5
+salt = 20
+saltwater = 100
+justwater = 200
+
+totalsalt = (salt / (saltwater+justwater)) * 100
+
+totalsalt = round(totalsalt, 2)
+
+print(f'혼합된 소금물의 농도: {totalsalt}%')
