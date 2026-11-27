@@ -1,0 +1,30 @@
+# [파이썬 프로그래밍 기초(1) 파이썬의 기본 구조와 기초 문법] 6. 흐름과 제어 - If 6
+
+import random
+
+randomnum = random.randint(1, 6)
+
+while True:
+    
+    try:
+        N = input()
+    except EOFError: # 아무것도 입력되지 않으면 프로그램 종료
+        break
+
+    if N == '종료':
+        break
+
+    try:
+        N = int(N)
+    except ValueError: # 예외의 값이 입력되면 다시 입력받게 함
+        continue
+    
+    if int(N) > randomnum:
+        print(f'{N}보다 낮습니다!')
+
+    elif int(N) < randomnum:
+        print(f'{N}보다 높습니다!')
+    
+    else:
+        break
+        

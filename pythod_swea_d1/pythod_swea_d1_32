@@ -1,0 +1,9 @@
+# [파이썬 프로그래밍 기초(1) 파이썬의 기본 구조와 기초 문법] 6. 흐름과 제어 - If 5
+
+alpha = input()
+
+if alpha.islower():
+    print(f'{alpha}(ASCII: {ord(alpha)}) => {alpha.upper()}(ASCII: {ord(alpha.upper())})')
+
+else:
+    print(f'{alpha}(ASCII: {ord(alpha)})')

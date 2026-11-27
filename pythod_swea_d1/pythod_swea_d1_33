@@ -1,0 +1,12 @@
+# [파이썬 프로그래밍 기초(2) 파이썬의 기본 응용] 5. 객체지향 4
+
+class Circle:
+    def __init__(self, r):
+        self.r = r
+        
+    def total_circle(self):
+        return (self.r * self.r) * 3.14
+
+circle = Circle(2)
+
+print(f'원의 면적: {circle.total_circle()}')

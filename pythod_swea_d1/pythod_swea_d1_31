@@ -1,0 +1,15 @@
+#  [파이썬 프로그래밍 기초(1) 파이썬의 기본 구조와 기초 문법] 6. 흐름과 제어 - If 4
+
+Man1 = input()
+Man2 = input()
+
+rsp = ["가위", "바위", "보"]
+
+if (Man1 == rsp[0] and Man2 == rsp[2]) or (Man1 == rsp[1] and Man2 == rsp[0]) or (Man1 == rsp[2] and Man2 == rsp[1]):
+    print("Result : Man1 Win!")
+
+elif Man1 == Man2:
+    print("Result : Draw")
+
+else:
+    print("Result : Man2 Win!")
